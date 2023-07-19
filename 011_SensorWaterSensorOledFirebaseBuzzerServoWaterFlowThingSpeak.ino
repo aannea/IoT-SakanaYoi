@@ -17,17 +17,17 @@
 
 const int sensorPin = A0;
 const int flowSensorPin = D0;
-const char* ssid = "HEHE TEAM";
-const char* password = "bacotmiskin";
-const char* host = "https://sakanayoi-ikan-default-rtdb.asia-southeast1.firebasedatabase.app/";
-const char* auth = "eKUjBlHjwcsLGGzkUvBavt0n8edtE3CDhBIpdokP";
+const char* ssid = "";
+const char* password = "";
+const char* host = "";
+const char* auth = "";
 unsigned int flowPulse = 0;
 unsigned long currentTime;
 unsigned long interval = 1000;
 float flowRate = 0;
 float totalLiters = 0;
-unsigned long myChannelNumber = 2220490;
-const char * myWriteAPIKey = "6QB95YCJ38MIBT83";
+unsigned long myChannelNumber = ;
+const char * myWriteAPIKey = "";
 
 WiFiClient client;
 FirebaseData firebaseData;
